@@ -144,7 +144,7 @@ button {
   left: 0;
   background: url(https://64.media.tumblr.com/fcbe4c79a9e3322d4cf024d725008ee8/be7d9a382f24ae16-2e/s500x750/3937cf602c1febfa8eef4c4e5557b9f4352fa8a7.gif) no-repeat center;
   background-size: cover;
-  z-index: 20;
+  z-index: 1;
   overflow: hidden;
 }
 

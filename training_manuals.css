@@ -54,6 +54,23 @@ button {
   background: #0c0014;
   z-index: 26;
 }
+.text-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 459px;
+  height: 315px;
+  margin: 0 0 0 23px;
+  color: #ffffff;
+  font-family: Red Hat Display, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 52.92px;
+  text-align: center;
+  text-decoration: underline;
+  z-index: 32;
+}
 .text {
   display: flex;
   align-items: center;
@@ -376,23 +393,7 @@ button {
   font-size: 0px;
   z-index: 15;
 }
-.text-b {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 459px;
-  height: 315px;
-  margin: 0 0 0 23px;
-  color: #ffffff;
-  font-family: Red Hat Display, var(--default-font-family);
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 52.92px;
-  text-align: center;
-  text-decoration: underline;
-  z-index: 9;
-}
+
 .text-c {
   display: flex;
   align-items: center;
