@@ -24,7 +24,7 @@ button {
 .main-container {
   position: relative;
   width: 1440px;
-  height: 2354px;
+  height: 2548px;
   margin: 0 auto;
   font-size: 0px;
   background: linear-gradient(180deg, #2c0146, #000000);
@@ -37,7 +37,7 @@ button {
   position: relative;
   width: 789px;
   height: 102px;
-  margin: 780px 0 0 323px;
+  margin: 759px 0 0 323px;
   color: #ffffff;
   font-family: Red Hat Display, var(--default-font-family);
   font-size: 36px;
@@ -46,7 +46,7 @@ button {
   text-align: center;
   z-index: 8;
 }
-.box {
+.group {
   position: absolute;
   width: 1440px;
   height: 66px;
@@ -101,7 +101,7 @@ button {
   white-space: nowrap;
   z-index: 7;
 }
-.img {
+.pic {
   position: absolute;
   width: 1440px;
   height: 665px;
@@ -112,7 +112,7 @@ button {
   background-size: cover;
   overflow: hidden;
 }
-.section {
+.box {
   position: relative;
   width: 1435px;
   height: 3629px;
@@ -155,12 +155,59 @@ button {
   white-space: nowrap;
   z-index: 2;
 }
-.facebook-iframe {
-  width: 500px;
-  height: 150px;
-  border: none;
-  overflow: hidden; /* or any other value you prefer */
+.text-6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 659px;
+  height: 130px;
+  top: 1016px;
+  left: 597px;
+  color: #ffffff;
+  font-family: Red Hat Display, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.504px;
+  text-align: left;
+  z-index: 11;
 }
+.section {
+  position: absolute;
+  width: 1013px;
+  height: 476px;
+  top: 1098px;
+  left: 211px;
+  background: #2e2e2e;
+  z-index: 9;
+}
+.text-7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 435px;
+  height: 263px;
+  top: 1724px;
+  left: 626px;
+  color: #ffffff;
+  font-family: Red Hat Display, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.504px;
+  text-align: left;
+  z-index: 12;
+}
+.section-2 {
+  position: absolute;
+  width: 1013px;
+  height: 476px;
+  top: 1800px;
+  left: 213px;
+  background: #2e2e2e;
+  z-index: 10;
+}
+
 
 
 
